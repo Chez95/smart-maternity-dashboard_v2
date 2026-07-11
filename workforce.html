@@ -5,16 +5,31 @@
   <div class="brand"><div class="logo"><img src="assets/smart-maternity-logo.png" alt="Smart Maternity Hospital logo"></div><h1>SMART<br>MATERNITY<br>HOSPITAL</h1></div>
   <div class="tagline">Enterprise analytics and decision support</div>
  </div>
- <nav><a class="nav-link " href="index.html"><svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>Executive Overview</a><a class="nav-link active" href="workforce.html"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-4 2-6 5-6s5 2 5 6M13 20c.2-3 1.8-4.5 4-4.5S21 17 21 20"/></svg>Workforce & People</a><a class="nav-link " href="operations.html"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Operations</a><a class="nav-link " href="finance.html"><svg viewBox="0 0 24 24"><path d="M4 7h16v12H4z"/><path d="M7 7V5h10v2M8 12h8M8 16h5"/></svg>Finance & Procurement</a><a class="nav-link " href="customer.html"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4V5Z"/></svg>Consumer Experience</a><a class="nav-link " href="governance.html"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v3h16V7l-8-4Z"/><path d="M6 10v7M10 10v7M14 10v7M18 10v7M3 20h18"/></svg>Governance & Compliance</a><a class="nav-link " href="security.html"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-5"/></svg>Security & Safety</a></nav>
+ <nav><a class="nav-link " href="index.html"><svg viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>Executive Overview</a><a class="nav-link" href="capacity.html"><svg viewBox="0 0 24 24"><path d="M4 19V8h16v11"/><path d="M7 8V5h10v3M4 14h16"/></svg>Capacity & Activity</a><a class="nav-link active" href="workforce.html"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-4 2-6 5-6s5 2 5 6M13 20c.2-3 1.8-4.5 4-4.5S21 17 21 20"/></svg>Workforce & People</a><a class="nav-link " href="operations.html"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Operations</a><a class="nav-link " href="finance.html"><svg viewBox="0 0 24 24"><path d="M4 7h16v12H4z"/><path d="M7 7V5h10v2M8 12h8M8 16h5"/></svg>Finance & Procurement</a><a class="nav-link " href="customer.html"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4V5Z"/></svg>Consumer Experience</a><a class="nav-link " href="governance.html"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v3h16V7l-8-4Z"/><path d="M6 10v7M10 10v7M14 10v7M18 10v7M3 20h18"/></svg>Governance & Compliance</a><a class="nav-link " href="security.html"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-5"/></svg>Security & Safety</a></nav>
  <div class="sidebar-note"><strong>Demonstration prototype</strong><small>Fictional non-clinical enterprise data for academic use only.</small></div>
 </aside><main><header class="header"><div><h2>Workforce & People Dashboard</h2><p>Rostering, training, recruitment and workforce assurance.</p></div><div class="controls"><select id="period"><option value="today">Today</option><option value="week">This week</option><option value="month">This month</option></select><span class="chip active">Live prototype</span></div></header>
+
 <section class="grid">
+<h3 class="section-heading">Safe Staffing & Workforce Position</h3>
 <article class="card metric-card"><h3>Staff on Duty</h3><div class="metric" id="staff">286</div><div class="sub">Across all operational areas</div><div class="trend neutral">● Live roster position</div></article>
-<article class="card metric-card"><h3>Shift Coverage</h3><div class="metric" id="coverage">98%</div><div class="sub">Required staffing covered</div><div class="progress"><span style="width:98%"></span></div><div class="trend up">● Safe threshold met</div></article>
+<article class="card metric-card"><h3>Safe Staffing Coverage</h3><div class="metric" id="coverage">98%</div><div class="sub">Required roster coverage</div><div class="progress"><span style="width:98%"></span></div><div class="trend up">● Safe threshold met</div></article>
+<article class="card metric-card"><h3>Skill-Mix Compliance</h3><div class="metric" id="skillmix">96%</div><div class="sub">Required competency mix achieved</div><div class="trend up">● Compliant</div></article>
+<article class="card metric-card"><h3>Open Shifts</h3><div class="metric" id="openshifts">3</div><div class="sub">Unfilled upcoming shifts</div><div class="trend warn">● Rostering action required</div></article>
 <article class="card metric-card"><h3>Mandatory Training</h3><div class="metric" id="training">96%</div><div class="sub">Current completion rate</div><div class="trend warn">● 22 completions outstanding</div></article>
 <article class="card metric-card"><h3>Open Vacancies</h3><div class="metric" id="vacancies">8</div><div class="sub">Active recruitment campaigns</div><div class="trend neutral">● 3 at interview stage</div></article>
-<article class="panel wide"><h3>Workforce Compliance</h3><div class="kpi-list">
-<div class="kpi-row"><span>Roster approval completed</span><strong>100%</strong></div><div class="kpi-row"><span>Occupational health clearances</span><strong>97%</strong></div><div class="kpi-row"><span>Credential checks current</span><strong>99%</strong></div><div class="kpi-row"><span>Wellbeing pulse score</span><strong>8.9 / 10</strong></div></div></article>
-<article class="panel"><h3>People Alerts</h3><div class="alerts"><div class="alert"><i class="dot amber"></i><div><strong>Eight vacancies open</strong><div class="sub">Three roles are identified as priority appointments.</div></div></div><div class="alert"><i class="dot green"></i><div><strong>No critical rota gaps</strong><div class="sub">Current shifts meet the agreed coverage threshold.</div></div></div></div></article>
+
+<article class="panel wide"><h3>Competency Status</h3><div class="kpi-list">
+<div class="kpi-row"><span>PROMPT training</span><strong>98%</strong></div>
+<div class="kpi-row"><span>CTG interpretation</span><strong>95%</strong></div>
+<div class="kpi-row"><span>Neonatal Life Support</span><strong>97%</strong></div>
+<div class="kpi-row"><span>Mandatory training</span><strong>96%</strong></div>
+</div></article>
+
+<article class="panel"><h3>Workforce Alerts</h3><div class="alerts">
+<div class="alert"><i class="dot amber"></i><div><strong>Three open shifts</strong><div class="sub">Rostering team action recommended.</div></div></div>
+<div class="alert"><i class="dot green"></i><div><strong>Skill mix compliant</strong><div class="sub">Current workforce competency requirements are met.</div></div></div>
+<div class="alert"><i class="dot green"></i><div><strong>No critical rota gaps</strong><div class="sub">All priority areas remain safely staffed.</div></div></div>
+</div></article>
 </section>
+
 </main></div><script src="assets/js/app.js"></script></body></html>
